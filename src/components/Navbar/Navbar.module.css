@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 25px 50px;
+    height: 30px;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    height: 30px;
+    margin: 0;
+}
+
+.ul .link {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #000;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.exit {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    margin-left: 25px;
+}

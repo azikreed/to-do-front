@@ -1,0 +1,25 @@
+.footer {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box__image {
+    display: flex;
+    gap: 35px;
+}
+
+.footer__text {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    color: #21243D;
+}
+
+.footer__main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
