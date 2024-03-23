@@ -1,14 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import styles from './Layout.module.css';
-// import Button from '../../components/Button/Button';
-// import cn from 'classnames';
-import { useDispatch, useSelector } from 'react-redux';
-import { AppDispatch, RootState } from '../../store/store';
+import { useDispatch } from 'react-redux';
+import { AppDispatch } from '../../store/store';
 import { getProfile, userActions } from '../../store/user.slice';
 import { useEffect } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Header from '../../components/Header/Header';
-import { Link } from 'react-router-dom';
 import Recent from '../../components/Recent/Recent';
 import Featured from '../../components/Featured/Featured';
 import Footer from '../../components/Footer/Footer';
